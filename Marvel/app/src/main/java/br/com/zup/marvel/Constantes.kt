@@ -2,9 +2,11 @@ package br.com.zup.marvel
 
 const val USER_KEY = "user"
 const val NAME_ERROR_MESSAGE = "Favor informar nome"
+const val NAME_ERROR_LENGTH_MESSAGE = "Por favor digite um nome com mais de três digitos"
 const val EMAIL_ERROR_MESSAGE = "Favor informar email"
 const val PASSWORD_ERROR_MESSAGE = "Favor informar senha"
-const val CREATE_USER_ERROR_MESSAGE = "Erro ao criar usuário!"
+const val PASSWORD_ERROR_LENGTH_MESSAGE = "Por favor digite uma senha com no mínimo oito digitos"
+const val CREATE_USER_ERROR_MESSAGE = "Não foi possível realizar o registro!"
 const val LOGIN_ERROR_MESSAGE = "Não foi possivel realizar o login!"
 const val MARVEL_KEY = "MARVEL"
 const val GAMORRA_NOME = "Gamorra"
