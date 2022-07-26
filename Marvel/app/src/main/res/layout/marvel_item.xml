@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/margin_8"
             android:layout_marginStart="@dimen/margin_8"
-            android:text="@string/lista_nome_heroi"g
+            android:text="@string/lista_nome_heroi"
             android:textSize="12dp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/ivMarvel"
