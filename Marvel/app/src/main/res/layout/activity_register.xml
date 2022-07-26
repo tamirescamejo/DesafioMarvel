@@ -4,53 +4,55 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.login.view.LoginActivity">
+    tools:context=".ui.register.view.RegisterActivity">
     <EditText
-        android:id="@+id/et_email_login"
+        android:id="@+id/et_name_register"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/margin_16"
-        android:hint="@string/e_mail"
-        android:inputType="textEmailAddress"
-        android:importantForAutofill="no"
+        android:textSize="@dimen/font_size_14"
+        android:hint="@string/nome"
+        android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/et_password_login"
+        android:id="@+id/et_email_register"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/margin_16"
+        android:textSize="@dimen/font_size_14"
+        android:hint="@string/e_mail"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_name_register" />
+
+    <EditText
+        android:id="@+id/et_password_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_16"
+        android:textSize="@dimen/font_size_14"
         android:hint="@string/senha"
         android:inputType="textWebPassword"
         android:importantForAutofill="no"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/et_email_login" />
-
-    <TextView
-        android:id="@+id/tv_new_Account"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/crie_sua_conta_agora"
-        android:textAlignment="textEnd"
-        android:layout_margin="@dimen/margin_16"
-        app:layout_constraintTop_toBottomOf="@id/et_password_login"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:gravity="end" />
+        app:layout_constraintTop_toBottomOf="@id/et_email_register" />
 
     <Button
-        android:id="@+id/btn_login"
+        android:id="@+id/btn_register"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="start"
-        android:layout_marginTop="40dp"
-        android:layout_margin="@dimen/margin_16"
-        android:text="@string/login"
+        android:layout_marginHorizontal="@dimen/margin_16"
+        android:layout_marginTop="@dimen/margin_72"
+        android:text="@string/registrar_conta"
+        android:textAllCaps="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tv_new_Account" />
+        app:layout_constraintTop_toBottomOf="@id/et_password_register" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

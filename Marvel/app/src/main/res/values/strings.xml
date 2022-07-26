@@ -14,4 +14,7 @@
     <string name="senha">Senha</string>
     <string name="crie_sua_conta_agora">Crie sua conta agora</string>
     <string name="login">login</string>
+    <string name="nome">Nome</string>
+    <string name="registrar_conta">Registrar Conta</string>
+    <string name="exit">Sair</string>
 </resources>

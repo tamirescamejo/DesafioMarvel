@@ -7,4 +7,5 @@
     <dimen name="font_size_16">16sp</dimen>
     <dimen name="size_300">300dp</dimen>
     <dimen name="margin_86">86dp</dimen>
+    <dimen name="margin_72">72dp</dimen>
 </resources>
